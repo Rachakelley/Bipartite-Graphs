@@ -74,25 +74,25 @@ public class Driver {
 			else if (graph[i][vertex] == 1 && colors[vertex] == colors[i])
 			    return false;
 		    }
-        }
-        
-        StringBuilder sb = new StringBuilder();
-        StringBuilder sb2 = new StringBuilder();
-        // showing the bipartition by color
-        for(int vertex = 0; vertex < vertices; vertex++) {
-        	if(colors[vertex] == 1)
-        		sb.append(vertex + ", ");
-      	  	if(colors[vertex] == 0)
-      	  		sb2.append(vertex + ", ");
-        }
-        
-        sb.delete(sb.lastIndexOf(", "), sb.length());
-        sb2.delete(sb2.lastIndexOf(", "), sb2.length());
-        System.out.print("Red vertices: " + sb.toString() +
-        ("\nBlue vertices: " + sb2.toString()) + "\n");
-        // is bipartite
-        return true;
-    }
+		}
+
+		StringBuilder sb = new StringBuilder();
+		StringBuilder sb2 = new StringBuilder();
+		// showing the bipartition by color
+		for(int vertex = 0; vertex < vertices; vertex++) {
+			if(colors[vertex] == 1)
+				sb.append(vertex + ", ");
+			if(colors[vertex] == 0)
+				sb2.append(vertex + ", ");
+		}
+
+		sb.delete(sb.lastIndexOf(", "), sb.length());
+		sb2.delete(sb2.lastIndexOf(", "), sb2.length());
+		System.out.print("Red vertices: " + sb.toString() +
+		("\nBlue vertices: " + sb2.toString()) + "\n");
+		// is bipartite
+		return true;
+	}
         
 	public static void display(int[][] graph) {
 		int n = graph.length;
