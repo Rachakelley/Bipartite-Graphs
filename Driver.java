@@ -15,7 +15,7 @@ public class Driver {
 	        System.out.println("You entered the adjacency matrix:");
 	        display(graph);
 	        
-	       // showing the vertex set of the graph
+			// showing the vertex set of the graph
 	        System.out.print("Vertex set:\n{");
 			for(int row = 0; row < graph.length; row++)
 				for(int col = 0; col < graph.length; col++)
