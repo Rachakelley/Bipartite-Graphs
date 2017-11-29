@@ -19,9 +19,8 @@ public class Driver {
 	      		System.out.print("Vertex set:\n{");
 			for(int row = 0; row < graph.length; row++)
 				for(int col = 0; col < graph.length; col++)
-					if(graph[row][col] == 1) {
+					if(graph[row][col] == 1)
 						System.out.print("(" + row + ", " + col + ")");
-					}
 			System.out.print("}\n");
 			
 			// displaying the bipartition if the graph is bipartite
