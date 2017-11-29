@@ -1,4 +1,4 @@
-Enter the size n (number of nodes) of the adjacency matrix:
+	Enter the size n (number of nodes) of the adjacency matrix:
 	6
 	Enter the nxn adjacency matrix:
 	0 0 0 1 1 0
