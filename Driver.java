@@ -1,13 +1,3 @@
-/**
- * Rachel Kelley
- * E01460335
- * COSC 314 - Computational Discrete Structures
- * Programming Assignment #3
- * Program to determine whether a simple, connected, undirected
- * graph is bipartite or not. If it is bipartite, outputs
- * the bipartition of the vertex set.
- */
-
 import java.util.*;
 public class Driver {
 
